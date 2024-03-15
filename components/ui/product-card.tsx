@@ -52,7 +52,7 @@ const ProductCard: React.FC<ProductCardProps> = ({data}) => {
             <Currency value={data?.price} />
         </div>
     </div>
-  )
+  );
 }
 
 export default ProductCard

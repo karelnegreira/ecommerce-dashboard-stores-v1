@@ -27,7 +27,7 @@ const GalleryTab: React.FC<GalleryTabProps> = ({image}) => {
             </div>
         )}
     </Tab>
-  )
+  );
 }
 
 export default GalleryTab
