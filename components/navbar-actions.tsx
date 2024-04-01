@@ -25,7 +25,7 @@ const NavbarActions = () => {
             </span>
         </Button>
     </div>
-  )
+  );
 }
 
 export default NavbarActions

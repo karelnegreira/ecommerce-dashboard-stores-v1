@@ -23,7 +23,7 @@ const Navbar = async () => {
             </div>
         </Container>
     </div>
-  )
+  );
 }
 
 export default Navbar

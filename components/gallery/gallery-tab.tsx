@@ -1,11 +1,12 @@
 
+
 import Image from 'next/image';
 import {Tab} from '@headlessui/react';
 import {cn} from '@/libs/utils';
 import {Image as ImageType } from '@/types';
 
 interface GalleryTabProps {
-    image: ImageType;
+    image: ImageType
 }
 
 const GalleryTab: React.FC<GalleryTabProps> = ({image}) => {
