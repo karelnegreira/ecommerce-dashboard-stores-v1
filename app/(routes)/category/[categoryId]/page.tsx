@@ -5,6 +5,7 @@ import getSizes from "@/actions/get-sizes";
 import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
 import Filter from "./components/filter";
+import NoResult from "@/components/ui/no-result";
 
 
 export const revalidate = 0;
@@ -39,6 +40,10 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({ params, searchParams 
                     { /*Add mobile filters */ }
                     <div className="hidden lg:block">
                         <Filter valueKey="sizeId" name="Sizes" data={sizes} />
+                        <Filter valueKey="colorId" name="Colors" data={colors} />
+                    </div>
+                    <div className="mt-6 lg:col-span-4 lg:mt-0">
+                        {products.length === 0 && <NoResult/>}
                     </div>
                 </div>
 
