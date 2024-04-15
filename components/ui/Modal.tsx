@@ -4,7 +4,7 @@ import { X } from "lucide-react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
-import IconButton from "@/ecommerce-store/components/ui/icon-button";
+import IconButton from "./icon-button";
 
 
 
