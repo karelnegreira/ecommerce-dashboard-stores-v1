@@ -51,8 +51,7 @@ const Modal: React.FC<ModalProps> = ({
                                         {children}
                                     </div>
 
-                                </Dialog.Panel>
-
+                                </Dialog.Panel>                       
                             </Transition.Child>
                         </div>    
                 </div>
