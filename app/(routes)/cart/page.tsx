@@ -4,6 +4,7 @@ import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-toast";
 import { useEffect, useState } from "react";
 import CartItem from "./component/cart-item";
+import Summary from "./component/summary";
 
 const CartPage = () => {
     const [isMounted, setIsMounted] = useState(false);
